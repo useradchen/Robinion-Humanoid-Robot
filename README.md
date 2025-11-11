@@ -56,11 +56,9 @@ This firmware operates as the **low-level controller** of the humanoid robot **R
 ### 🧠 Controllers
 - OpenCM9.04 (Sub-controller)
 - ODROID-H2+ (Main controller, Intel J4115)
-- Coral USB Accelerator
 
 ### 🔋 Power System
 - Li-Po Battery 14.8V, 4400mA
-- Power Adapter
 
 ### 📡 Communication & Accessories
 - Wireless Network Card
@@ -71,18 +69,17 @@ This firmware operates as the **low-level controller** of the humanoid robot **R
 
 Below is a summary of the hardware components used in the ROBINION humanoid robot system.
 
-| Equipment | Description | Image |
-| :--------- | :----------- | :---- |
-| **Dynamixel MX-106** | Main actuator for leg joints | ![MX-106](./images/mx106.jpg) |
-| **Dynamixel AX-12A** | Actuator for upper body joints | ![AX-12A](./images/ax12a.jpg) |
-| **OpenCM9.04** | Sub-controller for low-level motor control | ![OpenCM9.04](./images/opencm.jpg) |
-| **ODROID-H2+** | Main controller (Intel J4115) | ![ODROID-H2+](./images/odroid.jpg) |
-| **Coral USB Accelerator** | Edge TPU for AI inference | ![Coral Accelerator](./images/coral.jpg) |
-| **Wireless Network Card** | For communication with high-level system | ![Wi-Fi Card](./images/wifi.jpg) |
-| **Virtual Display Adapter** | For headless mode operation | ![Virtual Display](./images/display.jpg) |
-| **Logitech C930e** | Camera for vision and object detection | ![Logitech C930e](./images/c930e.jpg) |
-| **Li-Po Battery** | 14.8V, 4400mA power supply | ![Battery](./images/battery.jpg) |
-| **Power Adapter** | External DC adapter for bench testing | ![Adapter](./images/adapter.jpg) |
+| **Equipment** | **Description** | **Image** |
+| :------------- | :-------------- | :-------- |
+| **Dynamixel MX-106** | Main actuator for leg joints | <img src="./pic1/Dynamixel%20MX106.jpg" width="120"/> |
+| **Dynamixel AX-12A** | Actuator for upper body joints | <img src="./pic1/Dynamixel%20AX12A.png" width="120"/> |
+| **OpenCM9.04** | Sub-controller for low-level motor control | <img src="./pic1/opencm.png" width="120"/> |
+| **ODROID-H2+** | Main controller (Intel J4115) | <img src="./pic1/ODROID-H2+%20(Intel%20J4115)%20&%20Coral%20USB%20Accelerator.png" width="120"/> |
+| **Wireless Network Card** | For communication with high-level system | <img src="./pic1/Wireless%20Network%20Card.png" width="120"/> |
+| **Virtual Display Adapter** | For headless mode operation | <img src="./pic1/Virtual%20Display%20Adapter.png" width="120"/> |
+| **Logitech C930e** | Camera for vision and object detection | <img src="./pic1/Logitech%20C930e.png" width="120"/> |
+| **Li-Po Battery** | 14.8V, 4400mA power supply | <img src="./pic1/Li-Po%20Battery.png" width="120"/> |
+
 
 ---
 
