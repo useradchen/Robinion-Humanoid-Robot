@@ -120,6 +120,7 @@ This firmware is part of the **ROBINION Humanoid Project**, developed under the 
 and the **AI & Robotics Research Team**.  
 Special thanks to all contributors for their dedication to motion control and robotic gait optimization.
 
+---
 
 > ⚠️ **Warning:**  
 > This program currently supports only **forward** and **backward** walking.  
