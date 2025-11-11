@@ -26,20 +26,7 @@ The control program focuses on the **execution layer**, handling robot locomotio
   - Handles left/right leg exchange
   - Allocates step length
   - Performs half-step adjustments for smooth starting and stopping
-
-### 🔌 Serial Command Interface
-- Receives commands via the **Arduino serial port** in the format:
-x,y,z
-
-makefile
-複製程式碼
-Example:
-5,5,5
-
-yaml
-複製程式碼
-- Supports the `q` command to safely stop walking (completes the final half-step before halting).
-
+  
 ---
 
 ## 🦿 System & Equipment
@@ -48,16 +35,16 @@ This firmware operates as the **low-level controller** of the humanoid robot **R
 
 ### 🤖 Robot Platform Specifications (ROBINION)
 
-| Item | Specification | Source |
-| :--- | :--- | :--- |
-| **Height** | 85 cm | |
-| **Weight** | 7 kg | |
-| **Degrees of Freedom (DOF)** | 14 (10 legs, 2 arms, 2 head) | |
-| **Actuators** | MX-106 ×10, MX-64 ×2, AX-12A ×2 | |
-| **Leg Kinematics** | Parallel Kinematics | |
-| **Movement Type** | Forward and Inverse Kinematics | |
-| **High-Level System** | Ubuntu 22.04 | |
-| **Achievement** | 🥇 1st Place – 2025 Taiwan Humanoid Robot Hurocup Marathon (Adult Group) | *(From project report)* |
+| Item | Specification | 
+| :--- | :--- |
+| **Height** | 85 cm |
+| **Weight** | 7 kg |
+| **Degrees of Freedom (DOF)** | 14 (10 legs, 2 arms, 2 head) |
+| **Actuators** | MX-106 ×10, MX-64 ×2, AX-12A ×2 |
+| **Leg Kinematics** | Parallel Kinematics |
+| **Movement Type** | Forward and Inverse Kinematics |
+| **System** | Ubuntu 22.04 |
+| **Achievement** | 🥇 1st Place – 2025 Taiwan Humanoid Robot Hurocup Marathon (Adult Group) |
 
 ---
 
@@ -104,16 +91,12 @@ Below is a summary of the hardware components used in the ROBINION humanoid robo
 
 ---
 
-## 🚀 Usage Guide
-
 ### Compilation & Upload
 
 1. Install the **DynamixelWorkbench** library in the **Arduino IDE**.  
 2. Place `[PROJECT_NAME].ino`, `robotController.h`, and `robotController.cpp` in the same folder.  
 3. Select the correct board (**OpenCM9.04** or **OpenCR**) and serial port.  
 4. Compile and upload the firmware to the controller.
-
----
 
 ---
 
