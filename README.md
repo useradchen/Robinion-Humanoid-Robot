@@ -85,13 +85,13 @@ Below is a summary of the hardware components used in the ROBINION humanoid robo
 
 ## 💻 Software Environment
 
-| Component | Description | Source |
-| :--- | :--- | :--- |
-| **Operating System** | Ubuntu 22.04 | |
-| **Firmware Development** | Arduino IDE (C++) | |
-| **Control Library** | DynamixelWorkbench | *(Used in code)* |
-| **High-Level Vision/Control** | Python, PyQt5, OpenCV, PySerial, ROS2 | |
-| **Machine Vision Model** | YOLO v8 (Object Detection) | *(From project report)* |
+| Component | Description |
+| :--- | :--- |
+| **Operating System** | Ubuntu 22.04 |
+| **Firmware Development** | Arduino IDE (C++) |
+| **Control Library** | DynamixelWorkbench |
+| **High-Level Vision/Control** | Python, PyQt5, OpenCV, PySerial, ROS2 |
+| **Machine Vision Model** | YOLO v8 (Object Detection) |
 
 ---
 
