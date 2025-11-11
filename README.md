@@ -49,6 +49,23 @@ This firmware operates as the **low-level controller** of the humanoid robot **R
 ---
 
 ## 🧰 Hardware Components
+### ⚙️ Actuators
+- Dynamixel MX-106 ×10
+- Dynamixel AX-12A ×2
+
+### 🧠 Controllers
+- OpenCM9.04 (Sub-controller)
+- ODROID-H2+ (Main controller, Intel J4115)
+- Coral USB Accelerator
+
+### 🔋 Power System
+- Li-Po Battery 14.8V, 4400mA
+- Power Adapter
+
+### 📡 Communication & Accessories
+- Wireless Network Card
+- Virtual Display Adapter
+- Logitech C930e (Camera)
 
 ### 📸 Equipment Overview
 
